@@ -28,24 +28,24 @@ class Game {
 
     preload() {
         this.backgroundImages = [{
-            src: loadImage('../assets/background/stars2.png'),
+            src: loadImage('assets/background/stars2.png'),
             x: 0,
             y: 0
         }, ]
         this.playerImages = [{
-            src: loadImage('../assets/background/rocket.png')
+            src: loadImage('assets/background/rocket.png')
         }]
         this.attackImages = [{
-            src: loadImage('../assets/background/attack.png')
+            src: loadImage('assets/background/attack.png')
         }]
         this.starImages = [{
-            src: loadImage('../assets/background/goldenStar.png')
+            src: loadImage('assets/background/goldenStar.png')
         }]
         this.cometImages = [{
-            src: loadImage('../assets/background/comet.png')
+            src: loadImage('assets/background/comet.png')
         }]
         this.youWonImages = [{
-            src: loadImage('../assets/background/YouWon.png')
+            src: loadImage('assets/background/YouWon.png')
         }]
     }
 
